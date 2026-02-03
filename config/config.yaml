@@ -20,12 +20,26 @@ features:
 - co
 - o3
 - no2
+impute_co: 11.0
+impute_no2: 18.0
+impute_o3: 29.0
+impute_pm10:
+  BAIK: 28.359154929577464
+  TIDAK BAIK: 55.17809298660362
+impute_pm25:
+  BAIK: 39.827586206896555
+  TIDAK BAIK: 82.38564668769716
+impute_so2: 35.306404657933044
 label: category
 label_categories:
 - BAIK
 - SEDANG
 - TIDAK SEHAT
+label_categories_new:
+- BAIK
+- TIDAK BAIK
 path_joined_data: ../data/interim/joined_dataset.pkl
+path_ohe_stasiun: ../models/ohe_stasiun.pkl
 path_raw_data: ../data/raw/
 path_test_set:
 - ../data/interim/X_test.pkl
