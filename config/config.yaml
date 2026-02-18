@@ -20,16 +20,16 @@ features:
 - co
 - o3
 - no2
-impute_co: 11.0
-impute_no2: 18.0
-impute_o3: 29.0
+impute_co: 11
+impute_no2: 18
+impute_o3: 29
 impute_pm10:
-  BAIK: 28.359154929577464
-  TIDAK BAIK: 55.17809298660362
+  BAIK: 28
+  TIDAK BAIK: 55
 impute_pm25:
-  BAIK: 39.827586206896555
-  TIDAK BAIK: 82.38564668769716
-impute_so2: 35.306404657933044
+  BAIK: 39
+  TIDAK BAIK: 82
+impute_so2: 35
 label: category
 label_categories:
 - BAIK
@@ -63,6 +63,7 @@ path_fitted_encoder_label: ../models/label_encoder.pkl
 path_fitted_encoder_stasiun: ../models/ohe_stasiun.pkl
 path_fitted_scaler: ../models/scaler.pkl
 path_production_model: ../models/best_model.pkl
+path_training_log: ../logs/training_log.json
 range_co:
 - -1
 - 47
